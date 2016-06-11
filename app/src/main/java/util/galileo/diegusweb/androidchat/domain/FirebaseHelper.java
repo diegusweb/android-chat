@@ -1,4 +1,4 @@
-package util.galileo.diegusweb.androidchat;
+package util.galileo.diegusweb.androidchat.domain;
 
 import com.firebase.client.AuthData;
 import com.firebase.client.DataSnapshot;
