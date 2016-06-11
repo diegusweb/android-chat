@@ -4,4 +4,7 @@
     <string name="login.message.password">Password</string>
     <string name="login.message.signin">Inicir Session</string>
     <string name="login.message.signup">Crear CUenta</string>
+    <string name="login.error.message.signin">Imposible iniciar sesion %s</string>
+    <string name="login.error.message.signup">Imposible registrar nuevo usuario %s</string>
+    <string name="login.notice.message.signup">Usuario agregado exitosamente</string>
 </resources>
