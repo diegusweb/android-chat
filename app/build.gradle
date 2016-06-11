@@ -36,4 +36,5 @@ dependencies {
 
     compile 'com.android.support:design:23.3.0'
     compile 'com.firebase:firebase-client-android:2.5.2+'
+    compile 'de.greenrobot:eventbus:2.4.0'
 }
