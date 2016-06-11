@@ -10,7 +10,7 @@ public class LoginPresenterImpl implements LoginPresenter {
 
     public LoginPresenterImpl(LoginView loginView){
         this.loginView = loginView;
-
+        this.loginInteractor = new LoginInteractorImpl();
     }
 
     @Override

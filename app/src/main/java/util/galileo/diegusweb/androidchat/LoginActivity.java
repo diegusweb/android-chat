@@ -15,6 +15,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import util.galileo.diegusweb.androidchat.login.LoginPresenter;
+import util.galileo.diegusweb.androidchat.login.LoginPresenterImpl;
 import util.galileo.diegusweb.androidchat.login.LoginView;
 import util.galileo.diegusweb.androidchat.ontactlist.ContactListActivity;
 
@@ -41,6 +42,10 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+
+        //init presenter
+        loginPresenter = new LoginPresenterImpl(this);
+        loginPresenter.checkForAuthenticatedUser();
     }
 
     @Override
@@ -54,13 +59,14 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     }
 
     @Override
+    @OnClick(R.id.btnSignin)
     public void handleSignIn() {
         loginPresenter.validateLogin(inputEmail.getText().toString(),
                 inputPassword.getText().toString());
     }
 
     @Override
-    @OnClick(R.id.btnSignin)
+    @OnClick(R.id.btnSignup)
     public void handleSignUp() {
         loginPresenter.registerNewUser(inputEmail.getText().toString(),
                 inputPassword.getText().toString());
