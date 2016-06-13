@@ -1,5 +1,7 @@
 package util.galileo.diegusweb.androidchat.login;
 
+import util.galileo.diegusweb.androidchat.login.events.LoginEvent;
+
 /**
  * Created by HP on 10/06/2016.
  */
