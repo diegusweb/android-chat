@@ -1,4 +1,4 @@
-package util.galileo.diegusweb.androidchat.login;
+package util.galileo.diegusweb.androidchat.login.ui;
 
 /**
  * Created by HP on 10/06/2016.

@@ -5,6 +5,7 @@ import android.util.Log;
 import util.galileo.diegusweb.androidchat.lib.EventBus;
 import util.galileo.diegusweb.androidchat.lib.GreenRobotEventBus;
 import util.galileo.diegusweb.androidchat.login.events.LoginEvent;
+import util.galileo.diegusweb.androidchat.login.ui.LoginView;
 
 /**
  * Created by HP on 11/06/2016.

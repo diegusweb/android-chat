@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,7 +15,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import util.galileo.diegusweb.androidchat.login.LoginPresenter;
 import util.galileo.diegusweb.androidchat.login.LoginPresenterImpl;
-import util.galileo.diegusweb.androidchat.login.LoginView;
+import util.galileo.diegusweb.androidchat.login.ui.LoginView;
 import util.galileo.diegusweb.androidchat.ontactlist.ContactListActivity;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
